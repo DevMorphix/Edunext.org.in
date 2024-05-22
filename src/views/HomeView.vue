@@ -1,21 +1,6 @@
 <template>
-  <div class="bg-white">
-    <header class="bg-blue-900 text-white py-4 px-8 flex justify-between items-center">
-      <div class="logo">
-        <img src="" alt="Eduneact Community" class="h-8" />
-      </div>
-      <nav>
-        <ul class="flex space-x-4">
-          <li><a href="#" class="hover:text-blue-300">We</a></li>
-          <li><a href="#" class="hover:text-blue-300">Redefine</a></li>
-          <li><a href="#" class="hover:text-blue-300">Learning</a></li>
-          <li><a href="#" class="hover:text-blue-300">Experiences</a></li>
-          <li>
-            <a href="#" class="bg-white text-blue-900 px-4 py-2 rounded-md hover:bg-blue-300 hover:text-white">Support Us</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<navbar />
+<div class="bg-white">
 
     <main class="px-8 py-16">
       <section class="hero mb-16">
@@ -127,18 +112,15 @@
     </footer>
   </div>
 
-  <footer />
-
-  
 </template>
 
 <script>
-import footer from '@/components/footer.vue'
+import navbar from '@/components/reuse/Navbar.vue'
+
 export default {
   name: 'App',
   components: {
-    footer, // Should be 'Footer' instead of 'footer'
-  }
-  // Add any necessary data and methods here
+    navbar
+    }
 }
 </script>
