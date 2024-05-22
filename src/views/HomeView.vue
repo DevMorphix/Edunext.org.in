@@ -1,126 +1,38 @@
 <template>
 <navbar />
 <div class="bg-white">
-
-    <main class="px-8 py-16">
-      <section class="hero mb-16">
-        <h1 class="text-4xl font-bold mb-4">Lorem ipsum dolor sit amet</h1>
-        <p class="text-gray-600 mb-4">consectetur. Ullamcorper sed auctor est mi libero.</p>
-        <p class="text-gray-600 mb-8">
-          Lorem ipsum dolor sit amet consectetur, dolor rius neque dicta eras conisre cognita an assumendum nemus tn in
-          unisque quis rustum volupat.
-        </p>
-        <div class="flex justify-center space-x-8">
-          <div class="text-center">
-            <h2 class="text-4xl font-bold">100+</h2>
-            <p class="text-gray-600">students engage with us in multu-state programs</p>
+  <section class="bg-white dark:bg-gray-900">
+    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+      <div class="mr-auto place-self-center lg:col-span-7">
+        <h1 class="max-w-2xl mb-4 font-bold md:text-5xl xl:text-6xl dark:text-white">Together we can create a change in our country’s educational arena to bring educational equity</h1>
+        <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Do you know India has over 1.2 million primary schools and 5.1 million teachers are working in shaping the future of our country. But are we lacking something behind?</p>
+        <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+          Get started
+                <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              </a>
+              <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                Speak to Sales
+              </a> 
+            </div>
+            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+              <img src="/assets/home.svg" alt="mockup">
+            </div>                
           </div>
-          <div class="text-center">
-            <h2 class="text-4xl font-bold">2+</h2>
-            <p class="text-gray-600">Multu-state programs we are currently running</p>
-          </div>
-          <div class="text-center">
-            <h2 class="text-4xl font-bold">50+</h2>
-            <p class="text-gray-600">New schools jointed to our network (curriculum reach out)</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="mission mb-16 flex">
-        <div class="w-1/2 pr-8">
-          <h2 class="text-2xl font-bold mb-2">Our Mission</h2>
-          <h3 class="text-xl font-bold mb-4">Lorem ipsum dolor</h3>
-          <p class="text-gray-600">
-            Lorem ipsum dolor sit amet consectetur. Esi lmperduet amet porao ac. Magna eget est lectus umar, thaemantum
-            erat ean molesue ipsum supienaiise scenisque lectu, trim nal vulculine samper aliengci.
-          </p>
-        </div>
-        <div class="w-1/2">
-          <img src="" alt="Our Mission" class="w-full" />
-        </div>
-      </section>
-
-      <section class="methodology mb-16">
-        <h2 class="text-2xl font-bold mb-8">Our Methodology</h2>
-        <div class="grid grid-cols-2 gap-8">
-          <div>
-            <h3 class="text-xl font-bold mb-4">Lorem Ipsum</h3>
-            <p class="text-gray-600">
-              Lorem ipsum dolor sit amet consectetur. Eit lmperduet amet porao ac. Magna eget est lectus turpis.
-              thaemantum erat ean molesue ipsum supienaiise scenisque lectu, trim nal vulculine samper aliengci.
-            </p>
-          </div>
-          <!-- Add more methodology steps here -->
-        </div>
-      </section>
-
-      <section class="testimonials mb-16">
-        <h2 class="text-2xl font-bold mb-8">From The Students</h2>
-        <div class="grid grid-cols-2 gap-8">
-          <div class="bg-gray-100 p-8 rounded-md">
-            <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet consectetur. Eit lmperduet amet porao ac.</p>
-            <div class="text-right">Avinr P</div>
-          </div>
-          <div class="bg-gray-100 p-8 rounded-md">
-            <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet consectetur. Eit lmperduet amet porao ac.</p>
-            <div class="text-right">Karthika C</div>
-          </div>
-          <!-- Add more testimonials here -->
-        </div>
-      </section>
-    </main>
-
-    <footer class="bg-blue-900 text-white py-16 px-8">
-      <div class="flex justify-between mb-8">
-        <div>
-          <h3 class="text-xl font-bold mb-4">Our Supporters</h3>
-          <div class="flex space-x-4">
-            <img src="" alt="Novus Labs IEDC" class="h-8" />
-            <img src="" alt="DEV.X" class="h-8" />
-          </div>
-        </div>
-        <div>
-          <h3 class="text-xl font-bold mb-4">Get Monthly News Letter</h3>
-          <form class="flex">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              class="px-4 py-2 rounded-l-md bg-white text-gray-800 focus:outline-none"
-            />
-            <button type="submit" class="bg-white text-blue-900 px-4 py-2 rounded-r-md hover:bg-blue-300 hover:text-white">
-              Subscribe
-            </button>
-          </form>
-        </div>
+        </section>
       </div>
-      <div class="flex justify-between">
-        <nav>
-          <ul class="flex space-x-4">
-            <li><a href="#" class="hover:text-blue-300">We</a></li>
-            <li><a href="#" class="hover:text-blue-300">Redefine</a></li>
-            <li><a href="#" class="hover:text-blue-300">Learning</a></li>
-            <li><a href="#" class="hover:text-blue-300">Experiences</a></li>
-          </ul>
-        </nav>
-        <div class="text-sm">
-          <a href="#" class="hover:text-blue-300">Terms and Condition</a>
-          <span class="mx-2">|</span>
-          <a href="#" class="hover:text-blue-300">Privacy Policy</a>
-        </div>
-        <div class="text-sm">eduneactcommunity@gmail.com</div>
-      </div>
-    </footer>
-  </div>
-
+      
+      <Footer />
 </template>
 
 <script>
-import navbar from '@/components/reuse/Navbar.vue'
+import navbar from '@/components/reuse/Navbar.vue';
+import Footer from '@/components/reuse/Footer.vue';
 
 export default {
   name: 'App',
   components: {
-    navbar
+    navbar,
+    Footer
     }
 }
 </script>
