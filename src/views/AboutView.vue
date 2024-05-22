@@ -79,7 +79,7 @@
 <script>
 import timeline from '@/components/Timeline.vue'
 export default{
-  name: 'aboud',
+  name: 'about',
   components: {
     timeline
   }
