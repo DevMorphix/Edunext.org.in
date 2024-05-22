@@ -127,12 +127,18 @@
     </footer>
   </div>
 
+  <footer />
+
   
 </template>
 
 <script>
+import footer from '@/components/footer.vue'
 export default {
   name: 'App',
+  components: {
+    footer, // Should be 'Footer' instead of 'footer'
+  }
   // Add any necessary data and methods here
 }
 </script>
