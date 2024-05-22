@@ -36,7 +36,7 @@
       <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-7">
           <h1 class="max-w-2xl mb-4 font-semibold	 md:text-3xl xl:text-4xl dark:text-white">Our Mission</h1>
-          <h1 class="max-w-2xl mb-4 font-bold md:text-5xl xl:text-6xl dark:text-white">Lorem ipsum dolor</h1>
+          <h1 class="max-w-2xl mb-4 font-bold md:text-5xl xl:text-6xl dark:text-white">Educate to Empower</h1>
           <p class="max-w-2xl mb-6 font-normal text-gray-900 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">We
             believe that quality of education makes somebody a responsible citizens which is a one pitstop solution for
             overall construction of one’s personality. We’re committed to make a social impact in eliminating
@@ -181,11 +181,11 @@
     <section class="bg-blue-100 dark:bg-gray-900">
       <div class="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
         <div class="flex justify-center items-center">
-          <a href="#" class="mx-4">
-            <img src="/assets/Inovuslogo.png" alt="" class="h-20">
+          <a href="#" class="mx-12">
+            <img src="/assets/Inovuslogo.png" alt="" class="h-10">
           </a>
-          <a href="#" class="mx-4">
-            <img src="/assets/Dev.x.png" alt="" class="h-20">
+          <a href="#" class="mx-12">
+            <img src="/assets/Dev.x.png" alt="" class="h-10">
           </a>
         </div>
       </div>
@@ -198,19 +198,19 @@
     Get Monthly News Letter
   </h2>
   <div class="my-8 flex justify-center items-center">
-    <div class="flex rounded-full shadow-md bg-white w-auto">
-      <input
-        v-model="searchText"
-        type="text"
-        class="rounded-l-full p-2 pl-4 bg-transparent border-none w-64 focus:outline-none focus:ring-2 focus:ring-blue-500"
-        placeholder="Enter your email"
-      />
-      <button
-        class="rounded-full bg-blue-950 font-bold hover:bg-blue-600 text-white p-2 m-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-      >
-        Subscribe
-      </button>
-    </div>
+    <div class="flex rounded-full shadow-md bg-white w-128 max-w-4xl">
+  <input
+    v-model="searchText"
+    type="text"
+    class="rounded-l-full p-2 pl-4 bg-transparent border-none w-96 focus:outline-none focus:ring-2 focus:ring-blue-500"
+    placeholder="Enter your email"
+  />
+  <button
+    class="rounded-full bg-blue-950 font-bold hover:bg-blue-600 text-white p-2 m-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+  >
+    Subscribe
+  </button>
+</div>
   </div>
 </section>
 
