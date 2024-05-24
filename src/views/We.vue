@@ -42,16 +42,19 @@
       </div>
     </div>
   </div>
+  <FooterComponent/>
 </template>
 
 <script>
 import Navbar from '@/components/reuse/Navbar.vue';
+import FooterComponent from '@/components/reuse/Footer.vue';
 import aboutus from '@/components/Aboutus.vue';
 
 export default {
   components: {
     Navbar,
     aboutus,
+    FooterComponent,
   },
   data() {
     return {
