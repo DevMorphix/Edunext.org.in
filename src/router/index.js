@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 import Terms from '@/views/TermsConditions.vue'
-
+import Privacy from '@/views/PrivacyView.vue'
 import We from '../views/We.vue'
 
 
@@ -18,6 +18,11 @@ const router = createRouter({
       path: '/terms',
       name: 'Terms',
       component: Terms
+    },
+    {
+      path: '/Privacy',
+      name: 'Privacy',
+      component: Privacy
     },
     {
       path: '/about',
