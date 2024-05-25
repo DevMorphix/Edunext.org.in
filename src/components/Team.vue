@@ -3,7 +3,7 @@
     <div
       v-for="item in dummyData"
       :key="item.id"
-      class="w-64 h-48 relative md:-mx-6 my-14 cursor-pointer"
+      class="w-64 h-48 relative md:-mx-6 my-5 cursor-pointer"
       @click="showDetails(item)"
     >
       <div class="rounded-lg overflow-hidden">
@@ -23,10 +23,10 @@
       </div>
     </div>
   </div>
-  <div v-if="!isMobile && selectedItem" class="md:mt-24 md:ml-6">
+  <div v-if="!isMobile && selectedItem" class="md:mt-20 md:ml-6 ">
     <a
-      href="#"
-      class="flex flex-col items-center bg-white border rounded-lg border-gray-200 shadow md:flex-row md:max-w-5xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+      
+      class="flex flex-col items-center bg-blue-100 border  rounded-lg border-gray-200 shadow md:flex-row md:max-w-5xl hover:bg-blue-200 dark:border-gray-700 dark:bg-gray-800 "
     >
       <img
         class="object-cover rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
@@ -34,12 +34,15 @@
         :alt="selectedItem.title"
       />
       <div class="flex flex-col justify-between p-4 leading-normal">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          {{ selectedItem.title }}
-        </h5>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        <p class=" -mt-9 ml-5 font-normal text-blue-700 font-semibold dark:text-gray-400">
           {{ selectedItem.description }}
         </p>
+        <div class="ml-5 mt-10">
+          <h3 class=" text-lg font-bold tracking-tight text-gray-900 ">{{ selectedItem.name }}</h3>
+          <h5 class=" text-sm font-normal tracking-tight text-gray-900 dark:text-white">
+            {{ selectedItem.title }}
+          </h5>
+        </div>
       </div>
     </a>
   </div>
@@ -59,28 +62,28 @@ export default {
         },
         {
           id: 2,
-          name: "NikHil T Das",
+          name: "Devika Anil",
           imageUrl: '/assets/team/AI.png',
           title: 'Strategy and curriculum planner',
           description: 'Lorem ipsum dolor sit amet consectetur. Odio magna mattis habitant nunc. Quis duis sagittis mi integer diam imperdiet arcu lectus. Tellus feugiat lorem enim vulputate urna. Sed id enim ornare mi mauris. Vel enim mauris lobortis lorem. Sed lorem id arcu nulla ultrices mauris risus integer. Volutpat id enim tortor venenatis sollicitudin amet turpis.',
         },
         {
           id: 3,
-          name: "NikHil T Das",
+          name: "Badhusha Shaji",
           imageUrl: '/assets/team/AI.png',
           title: 'Public relations and Outreach lead',
           description: 'Lorem ipsum dolor sit amet consectetur. Odio magna mattis habitant nunc. Quis duis sagittis mi integer diam imperdiet arcu lectus. Tellus feugiat lorem enim vulputate urna. Sed id enim ornare mi mauris. Vel enim mauris lobortis lorem. Sed lorem id arcu nulla ultrices mauris risus integer. Volutpat id enim tortor venenatis sollicitudin amet turpis..',
         },
         {
           id: 4,
-          name: "NikHil T Das",
+          name: "Abhishek V Gopal",
           imageUrl: '/assets/team/AI.png',
           title: 'Talent acquisition and operations lead',
-          description: 'Details about the impact of AI on healthcare in 2021.',
+          description: 'Lorem ipsum dolor sit amet consectetur. Odio magna mattis habitant nunc. Quis duis sagittis mi integer diam imperdiet arcu lectus. Tellus feugiat lorem enim vulputate urna. Sed id enim ornare mi mauris. Vel enim mauris lobortis lorem. Sed lorem id arcu nulla ultrices mauris risus integer. Volutpat id enim tortor venenatis sollicitudin amet turpis.',
         },
         {
           id: 5,
-          name: "NikHil T Das",
+          name: "Arjun A Acharry",
           imageUrl: '/assets/team/AI.png',
           title: 'Design and Community management lead',
           description: 'Details about the use of AI in finance and banking in 2021.',
