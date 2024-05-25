@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import Terms from '@/views/TermsConditions.vue'
 import Privacy from '@/views/PrivacyView.vue'
 import We from '../views/We.vue'
+import Experience from '@/views/ExperienceView.vue'
 
 
 const router = createRouter({
@@ -28,6 +29,11 @@ const router = createRouter({
       path: '/about',
       name: 'we',
       component: We
+    },
+    {
+      path: '/Experience',
+      name: 'Experience',
+      component: Experience
     }
   ]
 })
