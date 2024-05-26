@@ -27,7 +27,11 @@
                 </p>
             </div>
         </section>
-        
+        <div class="item-center flex justify-center py-10">
+            <img src="/assets/Experience/Vector 10.png" alt="" class="w-auto h-32">
+        </div>
+
+
     </div>
     <Footer />
 </template>

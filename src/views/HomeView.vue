@@ -202,11 +202,11 @@
   <input
     v-model="searchText"
     type="text"
-    class="rounded-l-full p-2 pl-4 bg-transparent border-none w-96 focus:outline-none focus:ring-2 focus:ring-blue-500"
+    class="rounded-l-full p-2 pl-8 bg-transparent border-none w-96 focus:outline-none focus:ring-2 focus:ring-blue-500"
     placeholder="Enter your email"
   />
   <button
-    class="rounded-full bg-blue-950 font-bold hover:bg-blue-600 text-white p-2 m-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+    class="rounded-full bg-blue-950 font-bold hover:bg-blue-600 text-white p-2 px-5 m-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
   >
     Subscribe
   </button>
