@@ -1,6 +1,6 @@
 <template>
-  <footer class="bg-gray-800 text-white py-8 md:pl-20 ">
-    <div class="container mx-auto px-4">
+  <footer class="bg-gray-800 text-white">
+    <div class="container mx-auto px-4 py-8">
       <img src="/assets/Copy Claim.png" alt="Desktop Image" class="mb-5" />
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-15">
         <div>
