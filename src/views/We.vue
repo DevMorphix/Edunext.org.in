@@ -29,11 +29,12 @@
         <team/>
       </div>
       <div v-else-if="selectedIndex === 2">
-        <p>Supporters information goes here.</p>
+        <support/>
       </div>
     </div>
   </div>
   <FooterComponent/>
+  <scroll/>
 </template>
 
 <script>
@@ -41,13 +42,17 @@ import Navbar from '@/components/reuse/Navbar.vue';
 import FooterComponent from '@/components/reuse/Footer.vue';
 import aboutus from '@/components/Aboutus.vue';
 import team from '@/components/Team.vue';
+import support from '@/components/Support.vue';
+import scroll from '@/components/Scrollup.vue';
 
 export default {
   components: {
     Navbar,
     aboutus,
     FooterComponent,
-    team
+    scroll,
+    team,
+    support
   }
   ,
   data() {

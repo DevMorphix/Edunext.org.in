@@ -3,7 +3,7 @@
     <div
       v-for="item in dummyData"
       :key="item.id"
-      class="w-64 h-48 relative md:-mx-6 my-5 cursor-pointer"
+      class="w-64 h-48 relative md:-mx-6 my-5 mb-14 cursor-pointer"
       @click="showDetails(item)"
     >
       <div class="rounded-lg overflow-hidden">
