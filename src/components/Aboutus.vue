@@ -2,11 +2,25 @@
     <div class="container px-5 md:px-28">
       <div class="video-wrapper flex justify-center mb-8">
         <div class="">
+         
           <div class="aspect-w-16 aspect-h-9">
+  <iframe
+    class="object-cover rounded-lg"
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/iptmAM2k7PQ"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+
+
+          <!-- <div class="aspect-w-16 aspect-h-9">
             <video controls class="object-cover rounded-lg">
-              <source src="/assets/dummy.mp4" type="video/mp4" />
+              <source src="https://www.youtube.com/watch?v=iptmAM2k7PQ" type="video/mp4" />
             </video>
-          </div>
+          </div> -->
         </div>
       </div>
       <p class="text-lightblack font-semibold px-0 py-10 md:px-0 mx-auto text-justify">
