@@ -24,38 +24,37 @@
     <div v-if="selectedIndex !== null" class="mt-8 flex justify-center">
       <div v-if="selectedIndex === 0">
         <aboutus/>
-        <!-- <div class="flex justify-center mb-8">
-        <div class="w-3/4">
-          <div class="aspect-w-16 aspect-h-9">
-            <video controls class=" object-cover rounded-lg" ref="videoElement">
-              <source src="/assets/dummy.mp4" type="video/mp4" />
-            </video>
-          </div>
-        </div>
-      </div> -->
       </div>
       <div v-else-if="selectedIndex === 1">
-        <p>Team information goes here.</p>
+        <team/>
       </div>
       <div v-else-if="selectedIndex === 2">
-        <p>Supporters information goes here.</p>
+        <support/>
       </div>
     </div>
   </div>
   <FooterComponent/>
+  <scroll/>
 </template>
 
 <script>
 import Navbar from '@/components/reuse/Navbar.vue';
 import FooterComponent from '@/components/reuse/Footer.vue';
 import aboutus from '@/components/Aboutus.vue';
+import team from '@/components/Team.vue';
+import support from '@/components/Support.vue';
+import scroll from '@/components/Scrollup.vue';
 
 export default {
   components: {
     Navbar,
     aboutus,
     FooterComponent,
-  },
+    scroll,
+    team,
+    support
+  }
+  ,
   data() {
     return {
       timeline: [

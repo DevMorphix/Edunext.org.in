@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 
 import Terms from '@/views/TermsConditions.vue'
 import Privacy from '@/views/PrivacyView.vue'
+import redefine from '@/views/redefine.vue'
 import We from '../views/We.vue'
 import Experience from '@/views/ExperienceView.vue'
 
@@ -24,6 +25,11 @@ const router = createRouter({
       path: '/Privacy',
       name: 'Privacy',
       component: Privacy
+    },
+    {
+      path: '/redefine',
+      name: 'redefine',
+      component: redefine
     },
     {
       path: '/about',

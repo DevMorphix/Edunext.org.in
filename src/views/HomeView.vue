@@ -218,17 +218,20 @@
   </div>
 
   <Footer />
+  <scroll/>
 </template>
 
 <script>
 import navbar from '@/components/reuse/Navbar.vue';
 import Footer from '@/components/reuse/Footer.vue';
+import scroll from '@/components/Scrollup.vue';
 
 export default {
   name: 'App',
   components: {
     navbar,
-    Footer
+    Footer,
+    scroll
   }
 }
 </script>

@@ -40,8 +40,8 @@
         <h4 class="text-lg mr-8 text-gray-500 font-semibold mb-2 hover:text-white">Privacy Policy </h4>
         <h4 class="text-lg text-gray-500 font-semibold mb-2 hover:text-white">Roles & Responsibilities </h4>
       </div>
-      <hr class="border-gray-500 mb-2 mt-4" />
-      <div class=" text-semibold" >
+      <hr class="border-gray-500 mb-6 mt-4" />
+      <div class=" text-semibold " >
       <p class="end-0 ">{{ contactEmail }}</p>
       </div>
     </div>
