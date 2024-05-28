@@ -5,7 +5,8 @@ import Terms from '@/views/TermsConditions.vue'
 import Privacy from '@/views/PrivacyView.vue'
 import redefine from '@/views/redefine.vue'
 import We from '../views/We.vue'
-import Experience from '@/views/ExperienceView.vue'
+import Experiences from '@/views/ExperienceView.vue'
+import Roles from '@/views/RolesView.vue'
 
 
 const router = createRouter({
@@ -37,9 +38,14 @@ const router = createRouter({
       component: We
     },
     {
-      path: '/Experience',
-      name: 'Experience',
-      component: Experience
+      path: '/Roles',
+      name: 'Roles',
+      component: Roles
+    },
+    {
+      path: '/Experiences',
+      name: 'Experiences',
+      component: Experiences
     }
   ]
 })
