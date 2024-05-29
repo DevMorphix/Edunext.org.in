@@ -7,6 +7,9 @@ import redefine from '@/views/redefine.vue'
 import We from '../views/We.vue'
 import Experiences from '@/views/ExperienceView.vue'
 import Roles from '@/views/RolesView.vue'
+import learning from '../views/learning.vue'
+
+
 
 
 const router = createRouter({
@@ -47,6 +50,10 @@ const router = createRouter({
       name: 'Experiences',
       component: Experiences
     }
+      path: '/learning',
+      name: 'learning',
+      component: learning
+    },
   ]
 })
 
