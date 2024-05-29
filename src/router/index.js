@@ -49,7 +49,8 @@ const router = createRouter({
       path: '/Experiences',
       name: 'Experiences',
       component: Experiences
-    }
+    },
+    {
       path: '/learning',
       name: 'learning',
       component: learning

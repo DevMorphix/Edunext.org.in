@@ -66,7 +66,7 @@ export default {
                         "10.Communicate with external stakeholders and school administrators to address any crisis situation and it’s solutions perspectives.",
                     ],
                     secondheading: "",
-                    secondresponsability: ""
+                    secondresponsability: []
 
 
                 },
@@ -86,7 +86,7 @@ export default {
                         "8.Conduct environmental scans and SWOT analyses to identify internal strengths and weaknesses, as well as external opportunities and threats of students as well as teachers.",
                     ],
                     secondheading: "",
-                    secondresponsability: ""
+                    secondresponsability: []
 
 
                 },
@@ -113,6 +113,81 @@ export default {
                         "4. Advocate for the organization's interests and priorities within stakeholder groups and external organizations.",
 
                     ]
+
+
+                },
+                {
+                    id: 4,
+                    name: "Design and Community management Lead",
+                    description: "The  design and community management Lead in this community is responsible for overseeing all aspects of the organization's media presence and communication strategies.",
+                    responsability: [
+                        "1.Develop and implement comprehensive media strategies aligned with the organization's goals and objectives.",
+                        "2.Create compelling and engaging content for various media channels, including press releases, articles, blog posts, social media posts and videos.",
+                        "3.Coordinate with internal teams, external partners, and stakeholders to gather content and information for media materials.",
+                        "4.Respond to media inquiries promptly and professionally, serving as the primary point of contact for media relations.",
+                        "5.Develop and execute social media strategies to increase the organization's visibility, engagement, and influence on platforms such as Twitter, Facebook, LinkedIn, Instagram, and YouTube. ",
+                        "6. Stay informed about social media trends, best practices, and platform algorithms to optimize content performance.",
+                        "7. Lead and mentor a team of media professionals, providing guidance, support, and feedback to ensure their success and professional development.",
+
+
+                    ],
+                    secondheading: "Community management Lead",
+                    secondresponsability: [
+                        "1.Engage with community members through various channels such as social media, forums, events, and online groups.",
+                        "2.Build a sense of belonging, trust, and camaraderie among community members by facilitating meaningful interactions and connections.",
+                        "3.Serve as a primary point of contact for community members, addressing their questions, issues, and feedback in a timely and empathetic manner.",
+                        "4.Promote community events, initiatives, and campaigns to attract participation and engagement from both existing and prospective members.",
+                        "5. Moderate community discussions and interactions, addressing inappropriate behavior, spam, and violations of community guidelines. This is the sole responsibility of community management lead.",
+
+                    ]
+
+
+                },
+                {
+                    id: 5,
+                    name: "Talent Acqusition and operations lead",
+                    description: "The role of a Talent Acquisition and Operations Lead in Edunext is multifaceted, involving responsibilities related to both human resources management and organizational operations. The following are the key responsibilities of this position:",
+                    responsability: [
+                        "1.Develop and implement recruitment strategies to attract qualified candidates who align with the organization's objective, mission and values.",
+                        "2.Facilitate the onboarding process for new hires, ensuring smooth integration into the organization and providing necessary training and support.",
+                        "3.Leads all administrative activities of the organization, including the free and fair flow of community activities, managing office operations, supplies, and logistic equipment.",
+                        "4. Assist in budget development and monitoring, tracking expenditures, and ensuring cost-effectiveness in operations.",
+                        "5.Assist with HR functions such as performance management, employee relations, and benefits administration. ",
+                        "6.Both Talent acquisition lead and community manager is the point of contact with volunteers and their  grievances and they’re the one who responsible for ensuring the code of conduct of the volunteers in the schools.",
+                        "7.The lead is responsible for managing the details of the volunteers including their police clearance certificate.",
+
+
+                    ],
+                    secondheading: "Financial Operations Responsibilities",
+                    secondresponsability: [
+                        "1.Manage the organization's finances, including budgeting, forecasting, and financial reporting.",
+                        "2.Oversee accounts payable and receivable, ensuring timely payments and accurate record-keeping.",
+                        "3.Work with the finance team to develop and implement financial policies and procedures.",
+                        "4.Monitor expenses, identify cost-saving opportunities, and ensure compliance with financial regulations.",
+
+                    ]
+
+
+                },
+                {
+                    id: 6,
+                    name: "Teaching Volunteers",
+                    description: "Teaching Volunteers commit to a one-year program in under-resourced schools, teaching and mentoring students. They must provide ID, review policies, and can join the alumni network upon completion.",
+                    responsability: [
+                        "1.The volunteer activity is a one-year program, in which the volunteers have been assigned to respective schools in which they’re assigned in each subjects.",
+                        "2.Volunteers are placed as part-time teachers in under-resourced schools where they teach subjects like English, Electronics, Computer Science, History, Science, and Social Studies. They design lesson plans, deliver engaging lectures, facilitate discussions, conduct workshops and group activities, group discussions and assess student progress.",
+                        "3.The volunteer should have to present the requires details like Aadhar card, Driving license and police clearance certificate before joining the program.",
+                        "4.The volunteers are required to read our privacy policy and child protection policy details before joining the program.",
+                        "5.Strict actions will be taken against those who violates the child protection policy and privacy policies. ",
+                        "6. The volunteers who have completed the one year program will have the privilege to join our alumni network.",
+                        "7.Volunteers work on developing and adapting teaching methodologies to suit the needs of their students. They create lesson plans, teaching aids, and educational resources that align with the prescribed curriculum while catering to the diverse learning abilities of their students.",
+                        "8. Volunteers provide individualized support and mentorship to students, helping them overcome academic challenges, develop essential skills, and build confidence. They offer guidance on study habits, problem-solving techniques, and goal setting to help students achieve their academic as well as industrial potential.",
+                        "9.Volunteers collect and analyze data on student performance, attendance, and other relevant metrics to track progress and identify areas for improvement. They prepare reports and presentations to communicate their findings to school administrators, curriculum planner, and other stakeholders.",
+
+
+                    ],
+                    secondheading: "",
+                    secondresponsability: []
 
 
                 },
