@@ -1,5 +1,6 @@
 <template>
-    <Navbar />
+    <Navbar class="mb-10"/>
+
     <section class="bg-white dark:bg-gray-900 antialiased">
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
             <h2 class="text-3xl font-semibold leading-tight tracking-tight text-blue-800 sm:text-4xl dark:text-white">
