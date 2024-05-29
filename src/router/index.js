@@ -5,6 +5,8 @@ import Terms from '@/views/TermsConditions.vue'
 import Privacy from '@/views/PrivacyView.vue'
 import redefine from '@/views/redefine.vue'
 import We from '../views/We.vue'
+import learning from '../views/learning.vue'
+import experience from '../views/Experience.vue'
 
 
 const router = createRouter({
@@ -34,7 +36,17 @@ const router = createRouter({
       path: '/about',
       name: 'we',
       component: We
-    }
+    },
+    {
+      path: '/learning',
+      name: 'learning',
+      component: learning
+    },
+    {
+      path: '/experiences',
+      name: 'experiences',
+      component: experience
+    },
   ]
 })
 
