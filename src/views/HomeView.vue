@@ -1,16 +1,16 @@
 <template>
-  <navbar />
+  <navbar data-aos="fade-up" />
   <div class="bg-white ">
     <!-- main section  -->
     <section class="bg-white dark:bg-gray-900">
       <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-7">
-          <h1 class="max-w-2xl mb-4 font-bold md:text-5xl xl:text-6xl dark:text-white">Together we can create a change
+          <h1 data-aos="fade-up" class="max-w-2xl mb-4 font-bold md:text-5xl xl:text-6xl dark:text-white">Together we can create a change
             in our country’s educational arena to bring educational equity</h1>
-          <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Do you
+          <p data-aos="fade-up" class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Do you
             know India has over 1.2 million primary schools and 5.1 million teachers are working in shaping the future
             of our country. But are we lacking something behind?</p>
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4">
+          <div data-aos="fade-up" class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4">
             <div class="bg-white p-6 rounded-md border shadow-md flex flex-col items-center justify-center">
               <span class="text-2xl font-bold text-gray-800">100+</span>
               <h3 class="text-sm font-medium text-gray-500 mb-2">Students engaged with as and learned new things</h3>
@@ -26,13 +26,13 @@
             </div>
           </div>
         </div>
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex" data-aos="fade-up">
           <img src="/assets/home.svg" alt="mockup">
         </div>
       </div>
     </section>
     <!-- our mission -->
-    <section class="bg-blue-100	dark:bg-gray-900">
+    <section class="bg-blue-100	dark:bg-gray-900 " data-aos="fade-up">
       <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-7">
           <h1 class="max-w-2xl mb-4 font-semibold	 md:text-3xl xl:text-4xl dark:text-white">Our Mission</h1>
@@ -49,7 +49,7 @@
       </div>
     </section>
     <!-- Methodology  -->
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white dark:bg-gray-900" data-aos="fade-up">
       <div class="pt-8 pb-0 px-4 mx-auto max-w-screen-xl lg:pt-16 lg:pb-0 lg:px-6 ">
         <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Methodology</h2>
@@ -124,15 +124,15 @@
       </div>
     </section>
     <!-- Testimonial -->
-    <section class="bg-white dark:bg-gray-900">
-      <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+    <section class="bg-white dark:bg-gray-900" >
+      <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 " data-aos="fade-up">
         <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">From the Students</h2>
         </div>
         <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
 
           <!-- card 1 -->
-          <div
+          <div data-aos="fade-up"
             class="items-center bg-blue-100 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 relative">
             <div class="flex flex-col p-5">
               <span class="text-gray-500 dark:text-gray-400">A good review of the students</span>
@@ -142,7 +142,7 @@
             </div>
           </div>
           <!-- card 2 -->
-          <div
+          <div data-aos="fade-up"
             class="items-center bg-blue-100 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 relative">
             <div class="flex flex-col p-5">
               <span class="text-gray-500 dark:text-gray-400">A good review of the students</span>
@@ -152,7 +152,7 @@
             </div>
           </div>
           <!-- card 3 -->
-          <div
+          <div data-aos="fade-up"
             class="items-center bg-blue-100 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 relative">
             <div class="flex flex-col p-5">
               <span class="text-gray-500 dark:text-gray-400">A good review of the students</span>
@@ -162,7 +162,7 @@
             </div>
           </div>
           <!-- card 4 -->
-          <div
+          <div data-aos="fade-up"
             class="items-center bg-blue-100 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 relative">
             <div class="flex flex-col p-5">
               <span class="text-gray-500 dark:text-gray-400">A good review of the students</span>
@@ -177,8 +177,8 @@
     </section>
 
     <!-- supporters -->
-    <h2 class="mb-4 text-3xl font-extrabold text-center text-gray-900 dark:text-white md:text-4xl">Our Supporters</h2>
-    <section class="bg-blue-100 dark:bg-gray-900">
+    <h2 data-aos="fade-up" class="mb-4 text-3xl font-extrabold text-center text-gray-900 dark:text-white md:text-4xl">Our Supporters</h2>
+    <section data-aos="fade-up" class="bg-blue-100 dark:bg-gray-900">
       <div class="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
         <div class="flex justify-center items-center">
           <a href="#" class="mx-12">
@@ -193,7 +193,7 @@
 
     <!-- monthely news letters -->
 
-    <section>
+    <section data-aos="fade-up" >
   <h2 class="my-8 text-3xl font-extrabold text-center text-gray-900 dark:text-white md:text-4xl">
     Get Monthly News Letter
   </h2>
@@ -217,14 +217,16 @@
 
   </div>
 
-  <Footer />
-  <scroll/>
+  <Footer data-aos="fade-up" />
+  <scroll data-aos="fade-up" />
 </template>
 
 <script>
 import navbar from '@/components/reuse/Navbar.vue';
 import Footer from '@/components/reuse/Footer.vue';
 import scroll from '@/components/Scrollup.vue';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 export default {
   name: 'App',
@@ -232,6 +234,15 @@ export default {
     navbar,
     Footer,
     scroll
+  },
+  mounted() {
+    AOS.init({
+      // Optional configuration options
+      duration: 1000, // Animation duration in milliseconds
+      once: true, // Animate only once
+      mirror: false, // Disable mirroring animation
+      // ... (Add more options as needed)
+    });
   }
 }
 </script>

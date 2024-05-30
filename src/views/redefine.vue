@@ -2,9 +2,9 @@
 <navbar/>
 <img src="/assets/learingimg.png" alt="" class="mt-16 w-max w-screen">
 
-<div class=" font-extrabold text-xl mt-10 ml-2 md:ml-24 md:mt-10">
-    What We Redefine
-</div>
+<div class=" flex font-extrabold text-5xl mb-5 mt-10 ml-2 md:ml-24 md:mt-10">
+      What we<p class="text-blue-950 md:ml-3">Redefine</p>
+    </div>
 <div class="mb-10 mt-2 md:ml-32 ml-5 ">
 
     <ol class="relative border-s border-dashed border-blue-800 dark:border-blue-600">
