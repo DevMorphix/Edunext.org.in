@@ -3,7 +3,7 @@
   <img src="/assets/learingimg.png" alt="" class="mt-16 w-max w-screen" />
 
     <div class=" flex font-extrabold text-5xl mb-5 mt-10 ml-2 md:ml-24 md:mt-10">
-      The way of <p class="text-blue-950 md:ml-2">Learning</p>
+      The way of <p class="text-blue-950 md:ml-3">Learning</p>
     </div>
 
 
@@ -19,7 +19,7 @@
 
 
     <div class="flex font-extrabold text-5xl mb-5 mt-10 ml-2 md:ml-24 md:mt-10">
-      Why we <p class="text-blue-950 md:ml-2">choose the way</p>
+      Why we <p class="text-blue-950 md:ml-3">choose the way</p>
     </div>
 
 
