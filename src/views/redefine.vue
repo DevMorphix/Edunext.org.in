@@ -1,6 +1,6 @@
 <template>
 <navbar/>
-<img src="/assets/learingimg.png" alt="" class="mt-16 w-max w-screen">
+<img src="/assets/Redifine.png" alt="" class="mt-16 w-max w-screen">
 
 <div class=" flex font-extrabold text-5xl mb-5 mt-10 ml-2 md:ml-24 md:mt-10">
       What we<p class="text-blue-950 md:ml-3">Redefine</p>
