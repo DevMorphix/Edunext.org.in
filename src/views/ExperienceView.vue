@@ -1,22 +1,23 @@
 <template>
+  <div>
     <navbar />
     <section>
       <div class="px-12 mt-20">
         <div class="grid grid-cols-4 px-7 flex md:ml-10">
-          <div class="md:mr-2 justify-center items-center">
+          <div class="md:mr-2 justify-center items-center" data-aos="fade-up">
             <img src="/assets/Experience/Rectangle 76.png" alt="" class="csl" />
           </div>
-          <div class="md:mr-2 justify-center items-center">
+          <div class="md:mr-2 justify-center items-center" data-aos="fade-up" data-aos-delay="100">
             <img src="/assets/Experience/Rectangle 79.png" alt="" class="csl" />
           </div>
-          <div class="md:mr-2 justify-center items-center">
+          <div class="md:mr-2 justify-center items-center" data-aos="fade-up" data-aos-delay="200">
             <img src="/assets/Experience/Rectangle 77.png" alt="" class="csl" />
           </div>
-          <div class="md:mr-2 justify-center items-center">
+          <div class="md:mr-2 justify-center items-center" data-aos="fade-up" data-aos-delay="300">
             <img src="/assets/Experience/Rectangle 77.png" alt="" class="csl " />
           </div>
         </div>
-        <section class="bg-white dark:bg-gray-900 antialiased mt-8 md:mt-0 lg:mt-0 xl:mt-0">
+        <section class="bg-white dark:bg-gray-900 antialiased mt-8 md:mt-0 lg:mt-0 xl:mt-0" data-aos="fade-up" data-aos-delay="400">
           <div class="max-w-screen-xl mx-auto">
             <h2 class="text-3xl font-semibold leading-tight tracking-tight text-sky-950 sm:text-4xl dark:text-white">
               The Experiences.
@@ -34,37 +35,45 @@
             </p>
           </div>
         </section>
-        <div class="item-center flex justify-center py-10">
-          <img src="/assets/Experience/Vector 10.png" alt="" class="w-10/12 h-32" />
+        <div class="item-center flex justify-center py-10" data-aos="fade-up" data-aos-delay="500">
+          <!-- <img src="/assets/Experience/Vector 10.png" alt="" class="w-10/12 h-32" /> -->
+          <wave />
         </div>
         <div></div>
       </div>
-      
-      
     </section>
-    <testimonial/>
+    <testimonial />
     <Footer />
-  </template>
-  
-  <script>
-  import navbar from '@/components/reuse/Navbar.vue';
-  import Footer from '@/components/reuse/Footer.vue';
-  import testimonial from '@/components/testimonial.vue';
-  export default {
-    name: 'ExperienceView',
-    components: {
-      navbar,
-      Footer,
-      testimonial
-    },
-  };
-  </script>
+  </div>
+</template>
+
+<script>
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import navbar from '@/components/reuse/Navbar.vue';
+import Footer from '@/components/reuse/Footer.vue';
+import testimonial from '@/components/testimonial.vue';
+import wave from '@/components/wave.vue';
+
+export default {
+  name: 'ExperienceView',
+  components: {
+    navbar,
+    Footer,
+    testimonial,
+    wave
+  },
+  mounted() {
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  },
+};
+</script>
 
 <style>
-.csl{
-
-width: 315px;
-
+.csl {
+  width: 315px;
 }
-
 </style>
