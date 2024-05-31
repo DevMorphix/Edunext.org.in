@@ -100,7 +100,7 @@
       'observe-visibility': ObserveVisibility,
     },
     props: {
-      width: { type: Number, default: 1000 },
+      width: { type: Number, default: 800 },
       height: { type: Number, default: 1500 },
       animationDuration: { type: Number, default: 10 },
       animationDelay: { type: Number, default: 0.1 },

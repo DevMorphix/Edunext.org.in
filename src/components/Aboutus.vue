@@ -15,7 +15,7 @@
       Along the way, we encountered numerous challenges and setbacks, but each obstacle only strengthened our resolve to press forward. We learned to adapt and innovate, finding creative solutions to address the unique needs of each school and its students. And as we navigated the ups and downs of our journey, we forged deep bonds with the communities we served, earning their trust and gratitude through our unwavering commitment to their children's futures.
     </p>
     
-    <p class="text-lightblack font-semibold md:mb-10 px-0 py-10 md:px-0 mx-auto text-justify" data-aos="fade-up">
+    <p class="text-lightblack font-semibold  px-0 py-10 md:px-0 mx-auto text-justify" data-aos="fade-up">
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </p>
 
@@ -27,7 +27,7 @@
       <testi />
     </div>
     
-    <p class="md:mt-96 pt-32 text-lightblack font-semibold px-0 py-10 md:px-0 mx-auto text-justify" data-aos="fade-up">
+    <p class="md:mt-96 text-lightblack font-semibold px-0 py-10 md:px-0 mx-auto text-justify" data-aos="fade-up">
       We saw once-shy students blossom into confident leaders, eager to make their mark on the world. We watched as academic performance improved, dropout rates declined, and aspirations soared to new heights. And while the road ahead remains challenging, we take pride in knowing that we have made a tangible difference in the lives of many children, as well as many families, empowering them to break free from the cycle of poverty and reach for their dreams with unwavering determination.
     </p>
   </div>
@@ -78,3 +78,6 @@ export default {
 <style scoped>
 /* Add any necessary styles */
 </style>
+
+
+
