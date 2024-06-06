@@ -75,7 +75,7 @@
               height="200"
             >
               <div
-                class="text-lg font-semibold text-blue-500 text-center"
+                class="text-lg font-semibold text-mainblack text-center"
                 :data-aos="index % 2 === 0 ? 'fade-right' : 'fade-left'"
                 :data-aos-delay="index * 200"
                 data-aos-duration="1000"

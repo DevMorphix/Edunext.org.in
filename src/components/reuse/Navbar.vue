@@ -5,6 +5,7 @@
       <a href="/" class="flex md:-ml-5 items-center space-x-3 rtl:space-x-reverse">
         <img src="/assets/logo.png" class="h-8" alt="Edunext ">
       </a>
+     
       <div class="flex md:order-2 md:-mr-4 space-x-3 md:space-x-0 rtl:space-x-reverse">
         <img src="/assets/Bell_fill.png " class="h-7 pt-2 px-2" alt="Edunext ">
         <button type="button"

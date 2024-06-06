@@ -13,7 +13,13 @@
           @mouseover="showDetails(item)"
         >
           <div class="rounded-lg overflow-hidden">
-            <div :class="['img-container', expandedImageId === item.id ? 'expanded' : '']">
+            <div
+              :class="[
+                'img-container',
+                expandedImageId === item.id ? 'expanded' : '',
+                expandedImageId === item.id ? 'animate-expand' : 'animate-shrink',
+              ]"
+            >
               <img class="object-cover" :src="item.imageUrl" :alt="item.title" />
             </div>
             <div
@@ -142,20 +148,98 @@ export default {
       }
       return '100px';
     },
-    toggleImageExpansion(itemId) {
-      this.expandedImageId = this.expandedImageId === itemId ? null : itemId;
-    },
-  },
-  mounted() {
-    this.checkScreenSize();
-    window.addEventListener("resize", this.checkScreenSize);
-  },
-  beforeUnmount() {
-    window.removeEventListener("resize", this.checkScreenSize);
-  },
+    toggleImageExpansion(itemId)
+    {
+ this.expandedImageId = this.expandedImageId === itemId ? null : itemId;
+},
+},
+mounted() {
+ this.checkScreenSize();
+ window.addEventListener("resize", this.checkScreenSize);
+},
+beforeUnmount() {
+ window.removeEventListener("resize", this.checkScreenSize);
+},
 };
 </script>
 
 <style scoped>
-/* Add your styles here */
+.img-container {
+ transition: all 0.3s ease;
+}
+
+.expanded {
+ width: 100%;
+ height: 100%;
+ position: fixed;
+ top: 0;
+ left: 0;
+ z-index: 999;
+ background-color: rgba(0, 0, 0, 0.8);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.expanded img {
+ max-width: 90%;
+ max-height: 90%;
+ object-fit: contain;
+}
+
+.animate-expand {
+ animation: expand 0.3s ease-out;
+}
+
+.animate-shrink {
+ animation: shrink 0.3s ease-out;
+}
+
+.animate-slide-up {
+ animation: slide-up 0.3s ease-out;
+}
+
+.animate-slide-down {
+ animation: slide-down 0.3s ease-out;
+}
+
+@keyframes expand {
+ 0% {
+   transform: scale(1);
+ }
+ 100% {
+   transform: scale(1.2);
+ }
+}
+
+@keyframes shrink {
+ 0% {
+   transform: scale(1.2);
+ }
+ 100% {
+   transform: scale(1);
+ }
+}
+
+@keyframes slide-up {
+ 0% {
+   transform: translateY(100%);
+   opacity: 0;
+ }
+ 100% {
+   transform: translateY(0);
+   opacity: 1;
+ }
+}
+
+@keyframes slide-down {
+ 0% {
+   transform: translateY(-100%);
+   opacity: 0;
+ }
+ 100% {
+   transform: translateY(0);
+   opacity: 1;
+ }
+}
 </style>
