@@ -9,7 +9,7 @@
           :key="item.id"
           :style="{ 'margin-bottom': getMarginBottom(index) }"
           class="w-64 h-48 relative md:-mx-6 md:my-10 my-32 cursor-pointer"
-          @click.stop="toggleImageExpansion(item.id); toggleDetails(item)"
+          
           @mouseover="showDetails(item)"
         >
           <div class="rounded-lg overflow-hidden">

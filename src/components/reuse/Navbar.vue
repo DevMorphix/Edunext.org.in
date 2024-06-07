@@ -6,7 +6,7 @@
         <img src="/assets/logo.png" class="h-8" alt="Edunext ">
       </a>
      
-      <div class="flex md:order-2 md:-mr-4 space-x-3 md:space-x-0 rtl:space-x-reverse">
+      <div class="flex md:order-2 md:-mr-4 z-50 space-x-3 md:space-x-0 rtl:space-x-reverse">
         <img src="/assets/Bell_fill.png " class="h-7 pt-2 px-2" alt="Edunext ">
         <button type="button"
           class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 pt-1 pb-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Support

@@ -20,9 +20,9 @@
         <section class="bg-white dark:bg-gray-900 antialiased mt-8 md:mt-0 lg:mt-0 xl:mt-0" data-aos="fade-up" data-aos-delay="400">
           <div class="max-w-screen-xl mx-auto">
             <h2 class="flex font-extrabold text-5xl mb-5 mt-10  md:mt-10">
-              The Experiences.
+              The <p class="text-blue-950 ml-2">Experiences</p>
             </h2>
-            <p class="mt-4 text-justify text-sm text-black sm:text-xl dark:text-gray-400">
+            <p class="mt-4 text-justify text-sm text-black sm:text-lg dark:text-gray-400">
               Lorem ipsum dolor sit amet consectetur. Eget vulputate volutpat condimentum curabitur. Eu ultrices mattis
               sagittis scelerisque sit viverra. Nullam est mi commodo amet duis. Proin est euismod enim lobortis pretium
               erat enim. Lorem ipsum dolor sit amet consectetur. Eget vulputate volutpat condimentum curabitur. Eu ultrices

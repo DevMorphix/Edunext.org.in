@@ -1,22 +1,22 @@
 <template>
   <navbar data-aos="fade-up" />
-  <div class="bg-white">
+  <div class=" bg-white"   >
     <!-- main section  -->
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bgi dark:bg-gray-900 md:pb-20" >
       <div
         class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
       >
         <div class="mr-auto place-self-center lg:col-span-7">
           <h1
             data-aos="fade-up"
-            class="max-w-2xl mb-4 font-bold md:text-5xl xl:text-6xl dark:text-white"
+            class="max-w-2xl mt-10 md:mb-4 font-bold text-3xl md:text-5xl xl:text-5xl dark:text-white mb-6"
           >
             Together we can create a change in our country’s educational arena
             to bring educational equity
           </h1>
           <p
             data-aos="fade-up"
-            class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+            class="max-w-2xl mb-6 md:font-light text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
           >
             Do you know India has over 1.2 million primary schools and 5.1
             million teachers are working in shaping the future of our country.
@@ -57,14 +57,20 @@
         </div>
       </div>
     </section>
+    <section class="bg-white text-white mb-10">
+-----
+      <div class="bg-white w-10">
+        
+      </div>
+    </section>
     <!-- our mission -->
-    <section class="bg-blue-100 dark:bg-gray-900" data-aos="fade-up">
+    <section class="bgt dark:bg-gray-900" data-aos="fade-up">
       <div
         class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
       >
         <div class="mr-auto place-self-center lg:col-span-7">
           <h1
-            class="max-w-2xl mb-4 font-semibold md:text-3xl xl:text-4xl dark:text-white"
+            class="max-w-2xl mb-4 txtlb font-bold md:text-3xl xl:text-4xl dark:text-white"
           >
             Our Mission
           </h1>
@@ -293,18 +299,18 @@
     >
       Our Supporters
     </h2>
-    <section data-aos="fade-up" class="bg-blue-100 dark:bg-gray-900">
-      <div class="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
-        <div class="flex justify-center items-center">
-          <a href="#" class="mx-12">
-            <img src="/assets/Inovuslogo.png" alt="" class="h-10" />
-          </a>
-          <a href="#" class="mx-12">
-            <img src="/assets/Dev.x.png" alt="" class="h-10" />
-          </a>
-        </div>
+    <section class="bg-blue-100  py-16 md:py-9 md:px-96  dark:bg-gray-900">
+    <div class="max-w-screen-xl   mx-auto px-4 md:px-8">
+      <div class="flex flex-col items-center md:flex-row md:justify-center">
+        <a href="https://inovuslabs.org" target="_blank" rel="noopener noreferrer" class="mb-8 md:mb-0 md:mr-16">
+          <img src="/assets/Inovuslogo.png" alt="Inovus Logo" class="h-12 md:h-12">
+        </a>
+        <a href="https://devmorphix.com" target="_blank" rel="noopener noreferrer" class="md:ml-16">
+          <img src="/assets/Dev.x.png" alt="Dev.x Logo" class="h-9 mt-3 md:h-19">
+        </a>
       </div>
-    </section>
+    </div>
+  </section>
 
     <!-- monthely news letters -->
 
@@ -319,11 +325,11 @@
           <input
             v-model="searchText"
             type="text"
-            class="cls rounded-l-full p-2 pl-8 bg-transparent border-none w-96 px-12 focus:outline-white focus:ring-2 focus:ring-blue-500"
+            class="cls rounded-l-full p-2 pl-8 bg-transparent border-none md:w-96 px-12 focus:outline-white focus:ring-2 focus:ring-blue-500"
             placeholder="Enter your email"
           />
           <button
-            class="rounded-full bg-blue-950 font-black text-2xl hover:bg-blue-600 text-white p-2 px-12 py-3 m-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            class="rounded-full bg-blue-950 font-black text-2xl hover:bg-blue-600 text-white p-2 md:px-12 py-3 m-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             Subscribe
           </button>
@@ -363,6 +369,18 @@ export default {
 </script>
 
 <style>
+
+.bgi{
+  background-image: url('/public/assets/Wave.png');
+  
+}
+.bgt{
+  background-color: #EDF2FE;
+}
+.txtlb{
+  color: #1D2E5C;
+  
+}
 .cls {
   border: none;
   overflow: none;

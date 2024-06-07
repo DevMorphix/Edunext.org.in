@@ -27,7 +27,7 @@
       <testi />
     </div>
     
-    <p class="md:mt-96 text-lightblack font-semibold px-0 py-10 md:px-0 mx-auto text-justify" data-aos="fade-up">
+    <p class="md:mt-64 text-lightblack font-semibold px-0 py-10 md:px-0 mx-auto text-justify" data-aos="fade-up">
       We saw once-shy students blossom into confident leaders, eager to make their mark on the world. We watched as academic performance improved, dropout rates declined, and aspirations soared to new heights. And while the road ahead remains challenging, we take pride in knowing that we have made a tangible difference in the lives of many children, as well as many families, empowering them to break free from the cycle of poverty and reach for their dreams with unwavering determination.
     </p>
   </div>
