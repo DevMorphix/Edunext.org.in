@@ -5,10 +5,10 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-15">
         <div>
           <div class="flex space-x-8">
-            <h4 class="text-lg text-gray-500 font-semibold mb-2 hover:text-white">We</h4>
-            <h4 class="text-lg text-gray-500 font-semibold mb-2 hover:text-white">Redefine</h4>
-            <h4 class="text-lg text-gray-500 font-semibold mb-2 hover:text-white">Learning</h4>
-            <h4 class="text-lg text-gray-500 font-semibold mb-2 hover:text-white">Experiences</h4>
+            <a href="/about"  ><h4 class="text-lg text-gray-500 font-semibold mb-2 hover:text-white">We</h4></a>
+            <a href="/redefine"  ><h4 class="text-lg text-gray-500 font-semibold mb-2 hover:text-white">Redefine</h4></a>
+            <a  href="/learning"  ><h4 class="text-lg text-gray-500 font-semibold mb-2 hover:text-white">Learning</h4></a>
+            <a href="/Experiences" ><h4  class="text-lg text-gray-500 font-semibold mb-2 hover:text-white">Experiences</h4></a>
           </div>
         </div>
         <div class="flex justify-end items-center">

@@ -1,103 +1,142 @@
 <template>
-    <div class="relative">
-      <div class="flex justify-between items-start">
-        <div v-for="(item, index) in timeline" :key="index" class="flex-1">
-          <div class="flex flex-col items-center">
-            <span class="text-lg font-bold mb-2">{{ item.year }}</span>
-            <div
-              class="bg-white border-2 border-blue-500 py-1 px-3 rounded-full flex items-center justify-center w-8 h-8 relative z-10 cursor-pointer"
-              @click="toggleSelection(index)"
-            >
-              <transition name="scale">
-                <div
-                  v-if="selectedIndex === index"
-                  class="bg-blue-500 w-full h-full rounded-full animate-pulse"
-                ></div>
-              </transition>
-            </div>
-            <div
-              v-if="index !== timeline.length - 1"
-              class="h-px w-full bg-blue-500 absolute top-1/2 translate-y-1/2 left-0 right-0 z-0 transition-all duration-300"
-              :class="{ 'animate-line': selectedIndex === index }"
-            ></div>
-          </div>
-          <p class="text-center mt-4">{{ item.text }}</p>
-        </div>
+  <ol class="relative border-l-4 border-dashed border-blue-800 dark:border-blue-600 p-4 animate-line">
+    <li
+      class="mb-4 ml-6"
+      v-for="(event, index) in events"
+      :key="index"
+      data-aos="fade-up"
+      :data-aos-delay="index * 200"
+    >
+      <span
+        class="line -ml-9 mt-2 absolute flex items-center justify-center w-4 h-4 bg-[#1D2E5C] rounded-full -start-3 ring-4 ring-white dark:ring-gray-900"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        <div class="line-animation"></div>
+      </span>
+      <div data-aos="fade-right" data-aos-delay="400">
+        <h3 class="flex items-center mb-1 -ml-4 text-lg font-semibold text-gray-900 dark:text-white">
+          {{ event.year }}
+        </h3>
+        <p class="event-description text-base -ml-4 font-normal text-gray-500 dark:text-gray-400">
+          {{ event.description }}
+        </p>
       </div>
-      <div v-if="selectedIndex !== null" class="mt-8 flex justify-between">
+    </li>
+  </ol>
+</template>
 
-      </div>
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    data() {
-      return {
-        timeline: [
-          {
-            year: '2021',
-            text: 'Lorem ipsum dolor sit amet consectetur. Eget vulputate volutpat condimentum curabitur.',
-          },
-          {
-            year: '2022',
-            text: 'Lorem ipsum dolor sit amet consectetur. Eget vulputate volutpat condimentum curabitur.',
-          },
-          {
-            year: '2023',
-            text: 'Lorem ipsum dolor sit amet consectetur. Eget vulputate volutpat condimentum curabitur.',
-          },
-        ],
-        selectedIndex: null,
-      };
-    },
-    methods: {
-      toggleSelection(index) {
-        if (this.selectedIndex === index) {
-          this.selectedIndex = null;
-        } else {
-          this.selectedIndex = index;
-        }
-      },
-    },
-  };
-  </script>
-  
-  <style>
-  .scale-enter-active,
-  .scale-leave-active {
-    transition: all 0.3s ease;
+<script>
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+export default {
+  name: 'Timeline',
+  data() {
+    return {
+      events: [
+        {
+          year: '2021',
+          description: 'Initial discussions to build teaching community among college students to use the potential of human resource',
+        },
+        {
+          year: '2022',
+          description: 'Launched as a teaching community',
+        },
+        {
+          year: '2023',
+          description: 'Completed 50+ workshops in various schools',
+        },
+        {
+          year: '2024',
+          description: 'Associated with various schools as a student community',
+        },
+      ],
+    };
+  },
+  mounted() {
+    AOS.init({
+      once: false,
+    });
+  },
+};
+</script>
+
+<style scoped>
+.aos-animate {
+  transition-property: transform, opacity;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+@media (prefers-reduced-motion) {
+  .aos-animate {
+    transition: none;
   }
-  .scale-enter,
-  .scale-leave-to {
-    transform: scale(0);
+}
+
+.aos-init .line {
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.aos-animate .line {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.aos-init div {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.aos-animate div {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.line-animation {
+  width: 20px;
+  height: 2px;
+  background-color: #1D2E5C;
+  position: relative;
+  animation: lineAnimation 2s infinite;
+}
+
+@keyframes lineAnimation {
+  0% {
+    transform: translateX(0);
   }
-  .animate-pulse {
-    animation: pulse 1s infinite;
+  50% {
+    transform: translateX(10px);
   }
-  @keyframes pulse {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.2);
-    }
-    100% {
-      transform: scale(1);
-    }
+  100% {
+    transform: translateX(0);
   }
-  .animate-line {
-    animation: line-animation 0.5s ease-in-out infinite;
+}
+
+.animate-line {
+  position: relative;
+}
+
+.animate-line::before {
+  content: '';
+  position: absolute;
+  left: -4px;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background-image: linear-gradient(to bottom, transparent 50%, #2563eb 50%);
+  background-size: 100% 20px;
+  animation: moveLineDown 4s infinite linear;
+}
+
+@keyframes moveLineDown {
+  0% {
+    background-position: 0 0;
   }
-  @keyframes line-animation {
-    0% {
-      width: 0;
-    }
-    50% {
-      width: 100%;
-    }
-    100% {
-      width: 0;
-    }
+  100% {
+    background-position: 0 calc(100% + 20px);
   }
-  </style>
+}
+</style>
