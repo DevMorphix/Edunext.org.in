@@ -34,6 +34,8 @@
     </section>
     <testimonial data-aos="fade-up" />
     <Footer data-aos="fade-up" />
+    <scroll data-aos="fade-up" />
+
   </template>
   
   <script>
@@ -41,6 +43,8 @@
   import Footer from '@/components/reuse/Footer.vue';
   import testimonial from '@/components/testimonial.vue';
   import AOS from 'aos';
+  import scroll from '@/components/Scrollup.vue';
+
   import 'aos/dist/aos.css';
   
   export default {
@@ -48,7 +52,8 @@
     components: {
       navbar,
       Footer,
-      testimonial
+      testimonial,
+      scroll
     },
     mounted() {
       AOS.init({

@@ -8,6 +8,7 @@ import We from '../views/We.vue'
 import Experiences from '@/views/ExperienceView.vue'
 import Roles from '@/views/RolesView.vue'
 import learning from '../views/learning.vue'
+import MyChart from '../views/Testbar.vue'
 
 
 
@@ -55,6 +56,11 @@ const router = createRouter({
       name: 'learning',
       component: learning
     },
+    {
+      path: '/mychart',
+      name: 'MyChart',
+      component: MyChart
+    }
   ]
 })
 

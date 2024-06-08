@@ -2,7 +2,7 @@
   <navbar data-aos="fade-up" />
   <div class="bg-white ">
     <!-- main section  -->
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white dark:bg-gray-900 mt-16 md:mt-4">
       <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-7">
           <h1 data-aos="fade-up" class="max-w-2xl mb-4 font-bold md:text-5xl xl:text-6xl dark:text-white">Together we can create a change
@@ -198,15 +198,15 @@
     Get Monthly News Letter
   </h2>
   <div class="my-8 flex justify-center items-center">
-    <div class="flex rounded-full shadow-md bg-white w-128 max-w-4xl">
+    <div class="flex rounded-full shadow-md bg-white md:w-128 max-w-4xl">
   <input
     v-model="searchText"
     type="text"
-    class="rounded-l-full p-2 pl-8 bg-transparent border-none w-96 focus:outline-none focus:ring-2 focus:ring-blue-500"
+    class="rounded-l-full p-2 pl-8 bg-transparent border-none w-40 md:w-96 focus:ring-0"
     placeholder="Enter your email"
   />
   <button
-    class="rounded-full bg-blue-950 font-bold hover:bg-blue-600 text-white p-2 px-5 m-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+    class="rounded-full bg-blue-950 font-bold hover:bg-blue-600 text-white p-2 px-5 m-2 "
   >
     Subscribe
   </button>
