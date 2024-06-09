@@ -2,7 +2,7 @@
   <navbar data-aos="fade-up" />
   <div class=" bg-white"   >
     <!-- main section  -->
-    <section class="bgi dark:bg-gray-900 md:pb-20" >
+    <section class="bgi dark:bg-gray-900 " >
       <div
         class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
       >
@@ -57,12 +57,12 @@
         </div>
       </div>
     </section>
-    <section class="bg-white text-white mb-10">
+    <!-- <section class="bg-white text-white mb-10">
 -----
       <div class="bg-white w-10">
         
       </div>
-    </section>
+    </section> -->
     <!-- our mission -->
     <section class="bgt dark:bg-gray-900" data-aos="fade-up">
       <div
@@ -314,28 +314,28 @@
 
     <!-- monthely news letters -->
 
-    <section data-aos="fade-up">
-      <h2
-        class="my-8 text-3xl font-extrabold text-center text-gray-900 dark:text-white md:text-4xl"
-      >
-        Get Monthly News Letter
-      </h2>
-      <div class="my-8 flex justify-center items-center">
-        <div class="flex rounded-full shadow-md bg-white w-128 max-w-4xl">
-          <input
-            v-model="searchText"
-            type="text"
-            class="cls rounded-l-full p-2 pl-8 bg-transparent border-none md:w-96 px-12 focus:outline-white focus:ring-2 focus:ring-blue-500"
-            placeholder="Enter your email"
-          />
-          <button
-            class="rounded-full bg-blue-950 font-black text-2xl hover:bg-blue-600 text-white p-2 md:px-12 py-3 m-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          >
-            Subscribe
-          </button>
-        </div>
-      </div>
-    </section>
+    <section data-aos="fade-up" >
+  <h2 class="my-8 text-3xl font-extrabold text-center text-gray-900 dark:text-white md:text-4xl">
+    Get Monthly News Letter
+  </h2>
+  <div class="my-8 flex justify-center items-center">
+    <div class="flex rounded-full shadow-md bg-white w-128 max-w-4xl">
+  <input
+    v-model="searchText"
+    type="text"
+    class="rounded-l-full p-2 pl-8 bg-transparent border-none w-96 focus:outline-none focus:ring-2 focus:ring-blue-500"
+    placeholder="Enter your email"
+  />
+  <button
+    class="rounded-full bg-blue-950 font-bold hover:bg-blue-600 text-white p-2 px-5 m-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+  >
+    Subscribe
+  </button>
+</div>
+  </div>
+</section>
+
+
   </div>
 
   <Footer data-aos="fade-up" />
