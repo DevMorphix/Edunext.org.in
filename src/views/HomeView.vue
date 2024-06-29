@@ -1,5 +1,5 @@
 <template>
-  <navbar data-aos="fade-up" />
+  <navbar class="navbar-background z-50" data-aos="fade-up" />
   <div class=" bg-white"   >
     <!-- main section  -->
     <section class="bgi dark:bg-gray-900 " >
@@ -370,9 +370,11 @@ export default {
 
 <style>
 
-.bgi{
+.bgi {
   background-image: url('/public/assets/Wave.png');
-  
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .bgt{
   background-color: #EDF2FE;
@@ -392,6 +394,14 @@ export default {
 
   resize: none;
 }
+.navbar-background {
+  background-image: url('@/assets/Wave.png'); /* Adjust the path if necessary */
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 
 .cls:focus {
   outline: none;
