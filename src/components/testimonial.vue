@@ -67,19 +67,19 @@
                 id: 1,
                 name: "Roji Thomas",
                 position: "Nodal Officer InovusLAbs IEDC",
-                text: "ILorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum..",
+                text: "As a teacher and guide with a deep commitment to education, I am proud to be associated with the Edunext community, an organization dedicated to transforming lives through the power of education. Over the years, I have had the privilege of observing and collaborating with the incredible fellows and volunteers of this community, and I am continually inspired by their dedication, passion, and unwavering commitment to the cause.",
             },
             {
                 id: 2,
                 name: "Cini Joseph",
                 position: "assistant professor ",
-                text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                text: "The sense of community and camaraderie within Edunext community is truly remarkable. The fellows and volunteers are not just volunteers but also mentors, role models, and advocates for the children they work with. Their efforts to create a nurturing and inclusive environment have a profound impact on the students, empowering them to dream big and reach their full potential.",
             },
             {
                 id: 3,
                 name: "Arjun Krishna",
                 position: "Mentor",
-                text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                text: "I am incredibly honored to be a mentor with Edunext community, an organization that stands at the forefront of transforming lives through education. Over the past years, I have witnessed firsthand the profound impact this community has had on countless children, and I am continually inspired by the dedication and passion of its fellows and volunteers. I deeply appreciate the dedication and hard work of every  volunteer at Edunext. Your efforts are creating ripples of positive change, touching lives, and building a foundation for a better tomorrow. The smiles, progress, and success of the students are a testament to your incredible contributions.",
             },
 
             ],

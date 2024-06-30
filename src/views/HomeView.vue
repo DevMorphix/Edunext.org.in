@@ -11,8 +11,7 @@
             data-aos="fade-up"
             class="max-w-2xl mt-10 md:mb-4 font-bold text-3xl md:text-5xl xl:text-5xl dark:text-white mb-6"
           >
-            Together we can create a change in our country’s educational arena
-            to bring educational equity
+          Uniting for Equal Education
           </h1>
           <p
             data-aos="fade-up"
@@ -31,7 +30,7 @@
             >
               <span class="text-2xl font-bold text-gray-800">100+</span>
               <h3 class="text-sm font-medium text-gray-500 mb-2">
-                Students engaged with as and learned new things
+                Students engaged in learning something, which they attempted not before.
               </h3>
             </div>
             <div
@@ -39,7 +38,7 @@
             >
               <span class="text-2xl font-bold text-gray-800">2+</span>
               <h3 class="text-sm font-medium text-gray-500 mb-2">
-                Years of experience with students and their activities
+                years experience as a student community with diversified learners
               </h3>
             </div>
             <div
@@ -47,7 +46,7 @@
             >
               <span class="text-2xl font-bold text-gray-800">50+</span>
               <h3 class="text-sm font-medium text-gray-500 mb-2">
-                New actives provided to engage students
+                beneficial sessions for students had completed 
               </h3>
             </div>
           </div>
@@ -82,10 +81,7 @@
           <p
             class="max-w-2xl mb-6 font-normal text-gray-900 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
           >
-            We believe that quality of education makes somebody a responsible
-            citizens which is a one pitstop solution for overall construction of
-            one’s personality. We’re committed to make a social impact in
-            eliminating educational divide in our country.
+          We believe that quality of education makes somebody a responsible citizens which is a one pitstop solution for overall construction of one’s personality. We’re committed to make a social impact in eliminating educational divide in our country.
           </p>
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">

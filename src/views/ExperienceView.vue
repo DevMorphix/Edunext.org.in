@@ -23,15 +23,7 @@
               The <p class="text-blue-950 ml-2">Experiences</p>
             </h2>
             <p class="mt-4 text-justify text-sm text-black sm:text-lg dark:text-gray-400">
-              Lorem ipsum dolor sit amet consectetur. Eget vulputate volutpat condimentum curabitur. Eu ultrices mattis
-              sagittis scelerisque sit viverra. Nullam est mi commodo amet duis. Proin est euismod enim lobortis pretium
-              erat enim. Lorem ipsum dolor sit amet consectetur. Eget vulputate volutpat condimentum curabitur. Eu ultrices
-              mattis sagittis scelerisque sit viverra. Nullam est mi commodo amet duis. Proin est euismod enim lobortis
-              pretium erat enim. Lorem ipsum dolor sit amet consectetur. Eget vulputate volutpat condimentum curabitur. Eu
-              ultrices mattis sagittis scelerisque sit viverra. Nullam est mi commodo amet duis. Proin est euismod enim
-              lobortis pretium erat enim.Lorem ipsum dolor sit amet consectetur. Eget vulputate volutpat condimentum
-              curabitur. Eu ultrices mattis sagittis scelerisque sit viverra. Nullam est mi commodo amet duis. Proin est
-              euismod enim lobortis pretium erat enim.
+              The lessons we’ve learned throughout the journey was mind blowing from the past years. It taught us to understand the challenges and problems of students from diversified background. The team we had has a wonderful ability to tackle real life problem and bring solutions for the problem wheather it’s a domain specific or a general problem. We understand every children is different in nature and they had their own talents and skill set. Each child's journey is unique and deserves to be evaluated accordingly.
             </p>
           </div>
         </section>
