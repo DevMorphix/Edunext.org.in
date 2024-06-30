@@ -23,15 +23,7 @@
               The <p class="text-blue-950 ml-2">Experiences</p>
             </h2>
             <p class="mt-4 text-justify text-sm text-black sm:text-lg dark:text-gray-400">
-              Lorem ipsum dolor sit amet consectetur. Eget vulputate volutpat condimentum curabitur. Eu ultrices mattis
-              sagittis scelerisque sit viverra. Nullam est mi commodo amet duis. Proin est euismod enim lobortis pretium
-              erat enim. Lorem ipsum dolor sit amet consectetur. Eget vulputate volutpat condimentum curabitur. Eu ultrices
-              mattis sagittis scelerisque sit viverra. Nullam est mi commodo amet duis. Proin est euismod enim lobortis
-              pretium erat enim. Lorem ipsum dolor sit amet consectetur. Eget vulputate volutpat condimentum curabitur. Eu
-              ultrices mattis sagittis scelerisque sit viverra. Nullam est mi commodo amet duis. Proin est euismod enim
-              lobortis pretium erat enim.Lorem ipsum dolor sit amet consectetur. Eget vulputate volutpat condimentum
-              curabitur. Eu ultrices mattis sagittis scelerisque sit viverra. Nullam est mi commodo amet duis. Proin est
-              euismod enim lobortis pretium erat enim.
+              The lessons we’ve learned throughout the journey was mind blowing from the past years. It taught us to understand the challenges and problems of students from diversified background. The team we had has a wonderful ability to tackle real life problem and bring solutions for the problem wheather it’s a domain specific or a general problem. We understand every children is different in nature and they had their own talents and skill set. Each child's journey is unique and deserves to be evaluated accordingly.
             </p>
           </div>
         </section>
@@ -42,38 +34,42 @@
         <div></div>
       </div>
     </section>
-    <testimonial />
-    <Footer />
-  </div>
-</template>
+    <testimonial data-aos="fade-up" />
+    <Footer data-aos="fade-up" />
+    <scroll data-aos="fade-up" />
+    </div>
+  </template>
+  
+  <script>
+  import navbar from '@/components/reuse/Navbar.vue';
+  import Footer from '@/components/reuse/Footer.vue';
+  import testimonial from '@/components/testimonial.vue';
+  import AOS from 'aos';
+  import scroll from '@/components/Scrollup.vue';
 
-<script>
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import navbar from '@/components/reuse/Navbar.vue';
-import Footer from '@/components/reuse/Footer.vue';
-import testimonial from '@/components/testimonial.vue';
-import wave from '@/components/wave.vue';
-
-export default {
-  name: 'ExperienceView',
-  components: {
-    navbar,
-    Footer,
-    testimonial,
-    wave
-  },
-  mounted() {
-    AOS.init({
-      duration: 1000,
-      once: true
-    });
-  },
-};
-</script>
-
-<style>
-.csl {
-  width: 315px;
-}
-</style>
+  import 'aos/dist/aos.css';
+  
+  export default {
+    name: 'ExperienceView',
+    components: {
+      navbar,
+      Footer,
+      testimonial,
+      scroll
+    },
+    mounted() {
+      AOS.init({
+        duration: 1000, // Animation duration in milliseconds
+        once: true, // Animate only once
+        mirror: false, // Disable mirroring animation
+        // ... (Add more options as needed)
+      });
+    }
+  };
+  </script>
+  
+  <style>
+  .csl {
+    width: 315px;
+  }
+  </style>

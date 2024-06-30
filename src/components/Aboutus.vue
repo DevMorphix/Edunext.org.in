@@ -10,14 +10,15 @@
       </div>
     </div>
     
-    <p class="text-lightblack font-semibold px-0 py-10 md:px-0 mx-auto text-justify" data-aos="fade-up">
-      In 2022, we started our journey as a teaching community we do have a vision of empowering underprivileged kids to the mainstream forum and make them possible to aspire their dream and make them to believe in that dream. It was not an easy journey as it is described. <br />
+    <p class="text-lightblack font-semibold px-0 py-2 md:px-0 mx-auto text-justify" data-aos="fade-up">
+      In 2022, we started our journey as a teaching community we do have a vision of empowering underprivileged kids to the mainstream forum and make them possible to aspire their dream and make them to believe in that dream. It was not an easy journey as it is described. 
+    </p>
+    
+    <p class="text-lightblack font-semibold  px-0 py-2 md:px-0 mx-auto text-justify" data-aos="fade-up">
       Along the way, we encountered numerous challenges and setbacks, but each obstacle only strengthened our resolve to press forward. We learned to adapt and innovate, finding creative solutions to address the unique needs of each school and its students. And as we navigated the ups and downs of our journey, we forged deep bonds with the communities we served, earning their trust and gratitude through our unwavering commitment to their children's futures.
     </p>
     
-    <p class="text-lightblack font-semibold  px-0 py-10 md:px-0 mx-auto text-justify" data-aos="fade-up">
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-    </p>
+    
 
     <div v-if="deviceName === 'phone'" data-aos="fade-up">
       <Timeline />

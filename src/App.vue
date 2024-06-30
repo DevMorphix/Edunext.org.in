@@ -8,6 +8,6 @@
 </script>
 
 
-<!-- <style lang="scss">
- @import "@/scss/main.scss";
-</style> -->
+<style lang="css">
+ @import "/src/assets/main.css";
+</style>
