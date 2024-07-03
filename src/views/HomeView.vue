@@ -317,7 +317,6 @@
   <div class="my-8 flex justify-center items-center">
     <div class="flex rounded-full shadow-md bg-white w-128 max-w-4xl">
   <input
-    v-model="searchText"
     type="text"
     class="rounded-l-full p-2 pl-8 bg-transparent border-none w-48 lg:w-96 focus:outline-none focus:ring-2 focus:ring-blue-500"
     placeholder="Enter your email"
