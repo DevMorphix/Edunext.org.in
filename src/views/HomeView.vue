@@ -2,7 +2,7 @@
   <navbar class="navbar-background z-50" data-aos="fade-up" />
   <div class=" bg-white"   >
     <!-- main section  -->
-    <section class="bgi dark:bg-gray-900 md:pb-20" >
+    <section class="bgi dark:bg-gray-900 " >
       <div
         class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
       >
@@ -11,8 +11,7 @@
             data-aos="fade-up"
             class="max-w-2xl mt-10 md:mb-4 font-bold text-3xl md:text-5xl xl:text-5xl dark:text-white mb-6"
           >
-            Together we can create a change in our country’s educational arena
-            to bring educational equity
+          Uniting for Equal Education
           </h1>
           <p
             data-aos="fade-up"
@@ -31,7 +30,7 @@
             >
               <span class="text-2xl font-bold text-gray-800">100+</span>
               <h3 class="text-sm font-medium text-gray-500 mb-2">
-                Students engaged with as and learned new things
+                Students engaged in learning something, which they attempted not before.
               </h3>
             </div>
             <div
@@ -39,7 +38,7 @@
             >
               <span class="text-2xl font-bold text-gray-800">2+</span>
               <h3 class="text-sm font-medium text-gray-500 mb-2">
-                Years of experience with students and their activities
+                years experience as a student community with diversified learners
               </h3>
             </div>
             <div
@@ -47,37 +46,22 @@
             >
               <span class="text-2xl font-bold text-gray-800">50+</span>
               <h3 class="text-sm font-medium text-gray-500 mb-2">
-                New actives provided to engage students
+                beneficial sessions for students had completed 
               </h3>
             </div>
           </div>
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex" data-aos="fade-up">
-          <!-- <img src="/assets/home.svg" alt="mockup" /> -->
-
-          
-  <img src="/assets/home-Port/1.png" alt="mockup" class="absolute left-0 top-30 z-10" />
-  <img src="/assets/home-Port/2.png" alt="mockup" class="absolute right-52 top-32 z-9" />
-  <img src="/assets/home-Port/3.png" alt="mockup" class="absolute right-10 top-42 z-8" />
-  <img src="/assets/home-Port/Group (1).png" alt="mockup" class="absolute left-6 top-6 z-7" />
-  <img src="/assets/home-Port/Group (2).png" alt="mockup" class="absolute left-8 top-8 z-6" />
-  <img src="/assets/home-Port/Group (3).png" alt="mockup" class="absolute left-10 top-10 z-5" />
-  <img src="/assets/home-Port/Group (4).png" alt="mockup" class="absolute left-12 top-12 z-4" />
-  <img src="/assets/home-Port/Group (5).png" alt="mockup" class="absolute left-14 top-14 z-3" />
-  <img src="/assets/home-Port/Group (6).png" alt="mockup" class="absolute left-16 top-16 z-2" />
-  <img src="/assets/home-Port/Group 78.png" alt="mockup" class="absolute left-16 top-16 z-2" />
-  <img src="/assets/home-Port/Group.png" alt="mockup" class="absolute left-16 top-16 z-2" />
-  <!-- <img src="/assets/home-Port/Pictorial.png" alt="mockup" class="absolute left-16 top-16 z-2" /> -->
-</div>
-        
+          <img src="/assets/home.svg" alt="mockup" />
+        </div>
       </div>
     </section>
-    <section class="bg-white text-white mb-10">
+    <!-- <section class="bg-white text-white mb-10">
 -----
       <div class="bg-white w-10">
         
       </div>
-    </section>
+    </section> -->
     <!-- our mission -->
     <section class="bgt dark:bg-gray-900" data-aos="fade-up">
       <div
@@ -97,10 +81,7 @@
           <p
             class="max-w-2xl mb-6 font-normal text-gray-900 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
           >
-            We believe that quality of education makes somebody a responsible
-            citizens which is a one pitstop solution for overall construction of
-            one’s personality. We’re committed to make a social impact in
-            eliminating educational divide in our country.
+          We believe that quality of education makes somebody a responsible citizens which is a one pitstop solution for overall construction of one’s personality. We’re committed to make a social impact in eliminating educational divide in our country.
           </p>
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
@@ -329,28 +310,27 @@
 
     <!-- monthely news letters -->
 
-    <section data-aos="fade-up">
-      <h2
-        class="my-8 text-3xl font-extrabold text-center text-gray-900 dark:text-white md:text-4xl"
-      >
-        Get Monthly News Letter
-      </h2>
-      <div class="my-8 flex justify-center items-center">
-        <div class="flex rounded-full shadow-md bg-white w-128 max-w-4xl">
-          <input
-            v-model="searchText"
-            type="text"
-            class="cls rounded-l-full p-2 pl-8 bg-transparent border-none md:w-96 px-12 focus:outline-white focus:ring-2 focus:ring-blue-500"
-            placeholder="Enter your email"
-          />
-          <button
-            class="rounded-full bg-blue-950 font-black text-2xl hover:bg-blue-600 text-white p-2 md:px-12 py-3 m-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          >
-            Subscribe
-          </button>
-        </div>
-      </div>
-    </section>
+    <section data-aos="fade-up" >
+  <h2 class="my-8 text-3xl font-extrabold text-center text-gray-900 dark:text-white md:text-4xl">
+    Get Monthly News Letter
+  </h2>
+  <div class="my-8 flex justify-center items-center">
+    <div class="flex rounded-full shadow-md bg-white w-128 max-w-4xl">
+  <input
+    type="text"
+    class="rounded-l-full p-2 pl-8 bg-transparent border-none w-48 lg:w-96 focus:outline-none focus:ring-2 focus:ring-blue-500"
+    placeholder="Enter your email"
+  />
+  <button
+    class="rounded-full bg-blue-950 font-bold hover:bg-blue-600 text-white p-2 px-5 m-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+  >
+    Subscribe
+  </button>
+</div>
+  </div>
+</section>
+
+
   </div>
 
   <Footer data-aos="fade-up" />
@@ -390,7 +370,6 @@ export default {
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 .bgt{
   background-color: #EDF2FE;
