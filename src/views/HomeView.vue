@@ -53,8 +53,23 @@
           </div>
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex" data-aos="fade-up">
-          <img src="/assets/home.svg" alt="mockup" />
-        </div>
+          <!-- <img src="/assets/home.svg" alt="mockup" /> -->
+
+          
+  <img src="/assets/home-Port/1.png" alt="mockup" class="absolute left-0 top-30 z-10" />
+  <img src="/assets/home-Port/2.png" alt="mockup" class="absolute right-52 top-32 z-9" />
+  <img src="/assets/home-Port/3.png" alt="mockup" class="absolute right-10 top-42 z-8" />
+  <img src="/assets/home-Port/Group (1).png" alt="mockup" class="absolute left-6 top-6 z-7" />
+  <img src="/assets/home-Port/Group (2).png" alt="mockup" class="absolute left-8 top-8 z-6" />
+  <img src="/assets/home-Port/Group (3).png" alt="mockup" class="absolute left-10 top-10 z-5" />
+  <img src="/assets/home-Port/Group (4).png" alt="mockup" class="absolute left-12 top-12 z-4" />
+  <img src="/assets/home-Port/Group (5).png" alt="mockup" class="absolute left-14 top-14 z-3" />
+  <img src="/assets/home-Port/Group (6).png" alt="mockup" class="absolute left-16 top-16 z-2" />
+  <img src="/assets/home-Port/Group 78.png" alt="mockup" class="absolute left-16 top-16 z-2" />
+  <img src="/assets/home-Port/Group.png" alt="mockup" class="absolute left-16 top-16 z-2" />
+  <!-- <img src="/assets/home-Port/Pictorial.png" alt="mockup" class="absolute left-16 top-16 z-2" /> -->
+</div>
+        
       </div>
     </section>
     <section class="bg-white text-white mb-10">
@@ -375,6 +390,7 @@ export default {
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 .bgt{
   background-color: #EDF2FE;
