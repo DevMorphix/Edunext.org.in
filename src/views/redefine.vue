@@ -64,7 +64,7 @@
   <div data-aos="fade-up" class="mb-12 pl-6 relative">
     <div class="absolute left-0 top-0 bottom-0 w-1 bg-blue-500"></div>
     <p data-aos="fade-up" class="text-base text-gray-600 md:pr-52">
-      We envision a world where every child has an opportunity to dream and to have a milieu for believing in that dream. Our mission is to empower underprivileged children by providing them with access to quality education, nurturing their aspirations, and creating a supportive environment where their dreams can flourish.
+      Learn relentlessly
     </p>
   </div>
   </div>
