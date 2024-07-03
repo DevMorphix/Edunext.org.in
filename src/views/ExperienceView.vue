@@ -3,20 +3,16 @@
     <navbar />
     <section>
       <div class="px-12 mt-20">
-        <div class="grid grid-cols-4 px-7 flex md:ml-10">
-          <div class="md:mr-2 justify-center items-center" data-aos="fade-up">
-            <img src="/assets/Experience/Rectangle 76.png" alt="" class="csl" />
-          </div>
-          <div class="md:mr-2 justify-center items-center" data-aos="fade-up" data-aos-delay="100">
-            <img src="/assets/Experience/Rectangle 79.png" alt="" class="csl" />
-          </div>
-          <div class="md:mr-2 justify-center items-center" data-aos="fade-up" data-aos-delay="200">
-            <img src="/assets/Experience/Rectangle 77.png" alt="" class="csl" />
-          </div>
-          <div class="md:mr-2 justify-center items-center" data-aos="fade-up" data-aos-delay="300">
-            <img src="/assets/Experience/Rectangle 77.png" alt="" class="csl " />
-          </div>
-        </div>
+        <div class="flex flex-wrap justify-center ml-4 ">
+      <div
+        v-for="(image, index) in images"
+        :key="index"
+        class="overflow-hidden p-1"
+        data-aos="fade-up"
+      >
+        <img :src="image" alt="Image" class="object-cover h-72 w-72 " />
+      </div>
+    </div>
         <section class="bg-white dark:bg-gray-900 antialiased mt-8 md:mt-0 lg:mt-0 xl:mt-0" data-aos="fade-up" data-aos-delay="400">
           <div class="max-w-screen-xl mx-auto">
             <h2 class="flex font-extrabold text-5xl mb-5 mt-10  md:mt-10">
@@ -57,6 +53,16 @@
       testimonial,
       scroll
     },
+    data() {
+    return {
+      images: [
+        "./assets/gallery/IHRD.jpg",
+        "./assets/gallery/SB (2).jpg",
+        "./assets/gallery/RS.jpg",
+        "./assets/gallery/IHRD (2).jpg",
+      ],
+    };
+  },
     mounted() {
       AOS.init({
         duration: 1000, // Animation duration in milliseconds

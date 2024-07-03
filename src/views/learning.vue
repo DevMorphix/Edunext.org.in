@@ -14,7 +14,7 @@
         class="overflow-hidden p-1"
         data-aos="fade-up"
       >
-        <img :src="image" alt="Image" class="object-cover" />
+        <img :src="image" alt="Image" class="object-cover h-60 w-60 " />
       </div>
     </div>
 
@@ -53,16 +53,16 @@ export default {
   data() {
     return {
       images: [
-        "./assets/gallery/Rectangle 68.png",
-        "./assets/gallery/Rectangle 68.png",
-        "./assets/gallery/Rectangle 68.png",
-        "./assets/gallery/Rectangle 68.png",
-        "./assets/gallery/Rectangle 68.png",
-        "./assets/gallery/Rectangle 68.png",
-        "./assets/gallery/Rectangle 68.png",
-        "./assets/gallery/Rectangle 68.png",
-        "./assets/gallery/Rectangle 68.png",
-        "./assets/gallery/Rectangle 68.png",
+        "./assets/gallery/IHRD.jpg",
+        "./assets/gallery/IHRD (2).jpg",
+        "./assets/gallery/IHRD (3).jpg",
+        "./assets/gallery/IHRD (8).jpg",
+        "./assets/gallery/IHRD (5).jpg",
+        "./assets/gallery/IHRD (6).jpg",
+        "./assets/gallery/IHRD (7).jpg",
+        "./assets/gallery/RS.jpg",
+        "./assets/gallery/SB.jpg",
+        "./assets/gallery/SB (2).jpg",
       ],
     };
   },
