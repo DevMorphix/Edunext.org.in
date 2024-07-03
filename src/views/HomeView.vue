@@ -390,7 +390,7 @@ export default {
   resize: none;
 }
 .navbar-background {
-  background-image: url('@/assets/Wave.png'); /* Adjust the path if necessary */
+  background-image: url('./assets/Wave.png'); /* Adjust the path if necessary */
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
