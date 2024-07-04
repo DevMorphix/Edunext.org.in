@@ -58,8 +58,8 @@
       images: [
         "./assets/gallery/IHRD.jpg",
         "./assets/gallery/SB (2).jpg",
-        "./assets/gallery/RS.jpg",
         "./assets/gallery/IHRD (2).jpg",
+        "./assets/gallery/RS.jpg",
       ],
     };
   },
