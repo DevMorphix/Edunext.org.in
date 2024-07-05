@@ -14,7 +14,7 @@
         class="overflow-hidden p-1"
         data-aos="fade-up"
       >
-        <img :src="image" alt="Image" class="object-cover h-60 w-60 " />
+        <img :src="image" alt="Image" class="object-cover h-60 w-60 m-2" />
       </div>
     </div>
 
